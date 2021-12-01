@@ -1,0 +1,66 @@
+/* responsive for mobile device */
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 85%;
+    }
+    .menu-section{
+        display: none;
+    }
+    .show-main-menu{
+        display: block;
+    }
+    .menu-section ul{
+        display: flex;
+        flex-direction: column;
+        background: white;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        right: 0;
+        top: 62px;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-section ul li a{
+        color: black!important;
+    }
+    .menu-section ul li a:hover{
+        border-bottom: 2px solid transparent!important;
+        color: red!important;
+
+    }
+    .w-40{
+        width: 80%;
+        margin-top: 25px;
+    }
+    .w-50{
+        width: 80%;
+        margin-top: 25px;
+    }
+    .d-flex{
+        display: block;
+    }
+    .navbar{
+        display: flex;
+    }
+    #menu-toggler{
+        display: block;
+        cursor: pointer;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        margin-top: 50px;
+    }
+    .customer-brand{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+        margin-top: 50px;
+    }
+    .portfolios{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

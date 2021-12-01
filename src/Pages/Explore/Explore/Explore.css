@@ -1,0 +1,32 @@
+Explore page CSS
+
+.project-info h2{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.project-info p{
+    margin-bottom: 20px;
+}
+.project-info .link{
+    margin-bottom: 20px;
+}
+.tec-btn{
+    padding: 13px 25px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    background: red;
+    color: white;
+    letter-spacing: px;
+    cursor: pointer;
+    border-radius: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 20px 28px 0 rgb(241 99 52 / 13%);
+}
+.tec-btn:hover{
+    border: 1px solid red;
+    background: transparent;
+    color: red;
+}
+.technologies{
+    width: 50%;
+}
